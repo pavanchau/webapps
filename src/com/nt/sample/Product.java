@@ -3,20 +3,24 @@ package com.nt.sample;
 public class Product {
 	
 	private int pid;
-	private String pcode;
+
+	private String pname;
+
 	public int getPid() {
 		return pid;
 	}
+
 	public void setPid(int pid) {
 		this.pid = pid;
 	}
-	public String getPcode() {
-		return pcode;
-	}
-	public void setPcode(String pcode) {
-		this.pcode = pcode;
-	}
-	
-	
 
-}
+	public String getPname() {
+		return pname;
+	}
+
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+	
+	
+	}
